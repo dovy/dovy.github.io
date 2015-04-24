@@ -15,7 +15,7 @@ Occasionally, developers of Wordpress themes and plugins may have need to locate
 
 ## What does this function do?
 
-First, the function checks for an existing `post_id` query variable. Then it checks if there's a custom post type by a prefix name. The function works on both secure and unsecure URLs, with permalinks on or off, and with virtually **any** URL that may exist within a WordPress install. If nothing is found, 0 is returned.
+First, the function checks for an existing `post_id` query variable. Then it checks if there's a custom post type by a prefix name. The function works on both secure and non-secure URLs, with permalinks on or off, and with virtually **any** URL that may exist within a WordPress install. If nothing is found, 0 is returned.
 
 ## How did you make this?
 Lots of trial and error, and suffering! For Redux Framework, I created the <a href="http://reduxframework.com/extensions/metaboxes">metaboxes extension</a>. The extension required the discovery of the custom post data at any given time, on any page, even outside of loops. The challenge of overcoming this particular issue was not an easy one, and it's been over a year in the making. But, all that work finally came to a point where every use case works. It's tried and true, tested by thousands of users world-wide.   :)
