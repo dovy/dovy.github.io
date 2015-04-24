@@ -22,14 +22,16 @@ author_image: 				"/assets/img/authorimage.jpg"
 
 # Social Settings
 twitter_url: 				"http://twitter.com/simplerain"
-#facebook_url: 				""
 github_url:  				"http://github.com/dovy"
+linkedin_url:  				"https://www.linkedin.com/in/dovyp"
+gratipay_url:  				"https://gratipay.com/dovy/"
+#facebook_url: 				""
 #youtube_url:  				""
-#dribbble_url:  				""
+#dribbble_url:  			""
 #googleplus_url: 			""
 #instagram_url:  			""
 #pinterest_url:  			""
-linkedin_url:  				"https://www.linkedin.com/in/dovyp"
+
 
 
 # Theme Settings

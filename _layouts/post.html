@@ -25,8 +25,10 @@ layout: default
         {% if site.instagram_url %}
         <li><a href="{{ site.instagram_url }}" class="smallsocialbutton instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
         {% endif %}
+        {% if site.gratipay_url %}
+        <li><a href="{{ site.gratipay_url }}" class="smallsocialbutton gratipay" target="_blank"><i class="fa fa-gratipay"></i></a></li>
+        {% endif %}
         <li><a href="{{ site.url }}/feed.xml" class="smallsocialbutton rss" target="_blank"><i class="fa fa-rss"></i></a></li>
-        <li style="padding-top: 5px;"><script data-gratipay-username="dovy" data-gratipay-widget="button" src="//grtp.co/v1.js"></script></li>
     </ul>
     <p>{{ site.author_bio }}</p>
     <hr>
