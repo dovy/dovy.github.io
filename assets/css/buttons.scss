@@ -198,4 +198,14 @@
 		}
 	}
 
+	.gratipay{
+		-webkit-box-shadow: inset 0 0 0px 20px #663300;
+		box-shadow: inset 0 0 0px 20px #663300;
+		&:hover{
+			color:#663300;
+			-webkit-box-shadow: inset 0 0 0px 2px #663300;
+			box-shadow: inset 0 0 0px 2px #663300;
+		}
+	}
+
 }
