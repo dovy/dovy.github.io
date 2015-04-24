@@ -5,6 +5,6 @@ permalink: /contact/
 comments: false
 ---
 
-The documentation included provides all the information needed to get the theme installed and customized. However, if you have any questions you can email support@ecko.me, and we will be happy to help.
+I am always up for interaction with users or entities. You can contact me on Skype (DovyDigital) or email: me (at) dovy.io.
 
-If you have any bug reports, or feature requests, please let us know!
+Also if you have any ideas or things you want answered, don't hesitate to ask me!
