@@ -9,16 +9,16 @@ featured: true
 comments: true
 ---
 
-Sometimes, within WordPress you need to locate a page, a post, and get the ID before the post object is done with it's intial query. If you are like many developers out there, and found that the <a href="https://codex.wordpress.org/Function_Reference/url_to_postid">`url_to_postid`</a> function is not sufficient, you are NOT alone. This function I created will make your day a happy one.
+Occasionally, developers of Wordpress themes and plugins may have need to locate a page, a post, and get the ID before the post object is done with it's initial query. If you - like many developers out there - have discovered that the <a href="https://codex.wordpress.org/Function_Reference/url_to_postid">`url_to_postid`</a> function is insufficient, you are NOT alone. The function I created (shown below) will make your day a happier one.
 
 <!--more-->
 
 ## What does this function do?
 
-First, it checks for things like an existing `post_id` query variable. Then it checks if there's a custom post type by a prefix name. It works on secure and insecure URLs. It works with permalinks on or off. It works with virtually **any** URL that may exist within a WordPress install. If nothing can be found, 0 is returned.
+First, the function checks for an existing `post_id` query variable. Then it checks if there's a custom post type by a prefix name. The function works on both secure and unsecure URLs, with permalinks on or off, and with virtually **any** URL that may exist within a WordPress install. If nothing is found, 0 is returned.
 
 ## How did you make this?
-Lots of trial and suffering! For Redux I created the <a href="http://reduxframework.com/extensions/metaboxes">metaboxes extension</a>. This extension has to discover the custom post data at any time, on any page, even outside of loops. It was tough and it's essentially been a year in the making. It finally came to a point where every use case works. It's tried, tested, by thousands of users world-wide.   :)
+Lots of trial and error, and suffering! For Redux Framework, I created the <a href="http://reduxframework.com/extensions/metaboxes">metaboxes extension</a>. The extension required the discovery of the custom post data at any given time, on any page, even outside of loops. The challenge of overcoming this particular issue was not an easy one, and it's been over a year in the making. But, all that work finally came to a point where every use case works. It's tried and true, tested by thousands of users world-wide.   :)
 
 
 
@@ -284,7 +284,7 @@ function DOVYio_url_to_postid( $url ) {
 -
 --
 ## Credits for this Work
-I couldn't do this alone. I stood on the back of giants and simply finished off their work. I'd like to credit the following:
+I couldn't have accomplished the feat alone. Admittedly, I stood on the back of giants, finishing off the work they began. I'd like to credit the following sources:
 
 * The WordPress Core: `url_to_postid()` inside ~/wp-includes/rewrite.php
 * Adaptions taken from <a href="http://betterwp.net/wordpress-tips/url_to_postid-for-custom-post-types/">http://betterwp.net/wordpress-tips/url_to_postid-for-custom-post-types/</a>
