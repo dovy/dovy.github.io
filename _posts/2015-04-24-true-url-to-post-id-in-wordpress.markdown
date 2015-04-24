@@ -22,7 +22,7 @@ Lots of trial and suffering! For Redux I created the <a href="http://reduxframew
 
 
 
-### The Function
+## One Function to Rule Them All
 ```php
 <?php
 /* Copyright (C) 2013-2015 Dovy Paukstys - All Rights Reserved
@@ -283,7 +283,7 @@ function DOVYio_url_to_postid( $url ) {
 
 -
 --
-### Credits for this Work
+## Credits for this Work
 I couldn't do this alone. I stood on the back of giants and simply finished off their work. I'd like to credit the following:
 
 * The WordPress Core: `url_to_postid()` inside ~/wp-includes/rewrite.php

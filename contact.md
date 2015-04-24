@@ -3,6 +3,7 @@ layout: page
 title: Contact
 permalink: /contact/
 comments: false
+share: false
 ---
 
 I am always up for interaction with users or entities. You can contact me on Skype (DovyDigital) or email: me (at) dovy.io.

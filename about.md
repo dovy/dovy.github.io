@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 comments: false
+share: true
 ---
 
 My name is Dovy Paukstys. I am what I would call a web entusiast. I love anything related to web technologies. If it connects people and engages those users, I want to be involed.

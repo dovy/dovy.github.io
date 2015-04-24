@@ -37,7 +37,7 @@ gratipay_url:  				"https://gratipay.com/dovy/"
 # Theme Settings
 theme_disqus_shortname: 	"dovy.io"
 theme_google_comments: 		false
-#theme_analytics_id: 		"UA-28282324-1"
+theme_analytics_id: 		"UA-3386167-19"
 theme_analytics_domain: 	"dovy.io"
 theme_reading_time: 		true
 theme_autoload_comments: 	false
