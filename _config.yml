@@ -1,0 +1,54 @@
+
+
+# Site Settings
+title: 						"Dovy.io"
+email: 						"me@dovy.io"
+description: 				"The tech blog and resume of Dovy Paukstys."
+baseurl: 					""
+url: 						"http://dovy.io"
+logourl: 					"/assets/img/bloglogo.jpg"		
+fa-logo: 					"fa-bookmark-o"
+paginate: 					5
+
+
+# Author Settings
+author_name: 				"Dovy Paukstys"
+author_url: 				"http://dovy.io"
+author_bio: 				"Dovy Paukstys has done a myriad of internet based technologies. He specialises in open-source technologies and making the web work for users."
+author_email: 				"me@dovy.io"
+author_image: 				"/assets/img/authorimage.jpg"
+
+
+# Social Settings
+twitter_url: 				"http://twitter.com/simplerain"
+facebook_url: 				"http://facebook.com"
+github_url:  				"http://github.com/dovy"
+#youtube_url:  				"http://youtube.com"
+#dribbble_url:  				"http://dribbble.com"
+#googleplus_url: 			"http://google.com/plus"
+#instagram_url:  			"http://instagram.com"
+#pinterest_url:  			"http://pinterest.com"
+linkedin_url:  				"https://www.linkedin.com/in/dovyp"
+
+
+# Theme Settings
+theme_disqus_shortname: 	"dovy.io"
+theme_google_comments: 		false
+#theme_analytics_id: 		"UA-28282324-1"
+theme_analytics_domain: 	"dovy.io"
+theme_reading_time: 		true
+theme_autoload_comments: 	false
+theme_always_show_nav: 		false
+
+
+# SASS Settings
+# DO NOT MODIFY
+sass:
+ sass_dir: "assets/css/"
+ style: :compressed
+
+
+# Build Settings
+markdown: 					kramdown
+permalink: 					pretty
+
