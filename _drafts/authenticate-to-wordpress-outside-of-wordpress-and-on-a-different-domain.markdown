@@ -86,7 +86,7 @@ If not, let's authenticate. Now here is where you're going to have to do some of
 
 Now if the credentials work, we run `wp_set_auth_cookie( $user->ID, true )` which sets the auth cookie for this domain for this user! We're golden, we're in, and we can have the joys of an elongated cookie session for better user experience.
 
-## Final Check & Using the Session
+## Last Check & Using the Session
 Now that we have a `$user` object, let's make sure it's a real user.
 
 ```php
