@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Authenticate to WordPress Outside of WP"
-date:   2015-04-30 11:18:49
+date:   2015-04-25 11:59:49
 categories: WordPress
 tags: PHP
 banner_image: "/media/banners/escape.jpg"
-featured: true
+featured: false
 comments: true
 ---
 
