@@ -47,9 +47,9 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-3386167-19
-google_verify:      
+google_verify: 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify: <meta name="msvalidate.01" content="CAC59D50824D7642430C5C77163887A7" />     
 
 # Links to include in footer navigation
 # For external links add external: true
