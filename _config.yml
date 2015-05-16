@@ -1,7 +1,7 @@
 title:            Dovy.io
-description:      "The personal blog of Dovy Paukstys."
+description:      "The Blog of Dovy Paukstys"
 logo:             
-disqus_shortname: DovyP
+disqus_shortname: dovyio
 # Assign a default image for your site's header and footer
 default_bg:       epic-glacier.jpg
 home_bg:          dovy_bg.jpg
