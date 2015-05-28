@@ -7,7 +7,7 @@ tags: [PHP, Authentication, Bypass, Code, Hack]
 imagefeature: escape.jpg
 featured: false
 comments: true
-overlay_opacity: .20
+overlay_opacity: 
 overlay_color: 
 ---
 
