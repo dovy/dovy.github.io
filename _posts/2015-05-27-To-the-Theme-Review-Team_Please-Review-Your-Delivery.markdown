@@ -61,6 +61,6 @@ The most disappointing comment I've read in these discussions is probably this q
 
 Really?  How much more condescending can one possibly be?  Many developers have built their livelihoods on a freemium model, using the WP.org repo.  I hardly think it's the place of a TRT member to disregard their decisions, just because they do not rely on that as a source of income.
 
-My argument is thus:  With some subtle changes, developers could feel a whole lot less attacked.  I believe the TRT are all normal people, doing what they think is right, but perhaps they're been drinking their own kool-aid a little much as of late, and not listening to the community.  Yes, people respond positively in tickets, because they don't want to be blocked.  My interaction with developers has been less positive, in regards to the TRT.
+My argument is thus:  With some subtle changes, developers could feel a whole lot less attacked.  I believe the TRT are all normal people, doing what they think is right, but perhaps they've been drinking their own kool-aid a little much as of late, and not listening to the community.  Yes, people respond positively in tickets, because they don't want to be blocked.  My interaction with developers has been less positive, in regards to the TRT.
 
 In the end, many developers will jump ship, many will adapt, and eventually the waters will calm.  My hope is the TRT might learn some delivery and begin listening to their developers, instead of just the "Vocal Minority", specifically, their team.
