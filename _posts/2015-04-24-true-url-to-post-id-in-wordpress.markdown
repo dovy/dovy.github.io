@@ -289,3 +289,5 @@ I couldn't have accomplished the feat alone. Admittedly, I stood on the back of 
 
 * The WordPress Core: `url_to_postid()` inside ~/wp-includes/rewrite.php
 * Adaptions taken from <a href="http://betterwp.net/wordpress-tips/url_to_postid-for-custom-post-types/">http://betterwp.net/wordpress-tips/url_to_postid-for-custom-post-types/</a>
+
+
