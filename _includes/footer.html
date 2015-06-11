@@ -114,3 +114,17 @@
     {% endif %}
     {% endif %}
 </footer>
+<div id='vexVisualizerMagazinePlacement'></div>
+<script type="text/javascript">
+             (function (w, d) {
+	             function visualizrLoad() {
+		             var js = d.createElement('script');
+		             js.async = true;
+		             js.src = 'http://img.vexigo.com/visualizr/Scripts/vexigo.visualizr.js?v=' + Date.now();
+		             js.class = "dovy.io";
+js.id = "VexVisualizr";
+(d.head || d.getElementsByTagName('head')[0]).appendChild(js);}
+d.readyState == 'complete' ? visualizrLoad() :
+(w.addEventListener ? w.addEventListener('load', visualizrLoad, false) : w.attachEvent('onload', visualizrLoad));
+})(window, document);
+</script>
