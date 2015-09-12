@@ -6,7 +6,7 @@ category: WordCamp
 tags: [WordPress, Internationalization, Painful, Developer]
 comments: true
 imagefeature: "flags.jpg"
-overlay_opacity: 0
+overlay_opacity: 40
 overlay_color: 
 ---
 
