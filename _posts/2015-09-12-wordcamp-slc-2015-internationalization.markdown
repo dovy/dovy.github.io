@@ -19,7 +19,7 @@ Again, I'll add more here. For now, here are the resources you may want to take 
 <a href="/assets/files/WordCamp-SLC-2015-Dovy_Paukstys.pdf" data-toggle="tooltip" title="" class="btn btn-success btn-large" data-original-title="Download my Slide Deck">
 	Slide Deck
 </a>
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/reduxframework/grunt-transifex-wordpress/" target="_blank" data-toggle="tooltip" title="" class="btn btn-info btn-large" data-original-title="Everything you need to get started">
 	GitHub Repo
 </a>
