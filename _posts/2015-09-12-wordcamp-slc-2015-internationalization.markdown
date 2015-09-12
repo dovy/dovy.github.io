@@ -7,7 +7,7 @@ tags: [WordPress, Internationalization, Painful, Developer]
 comments: true
 imagefeature: "flags.jpg"
 overlay_opacity: 40%
-overlay_color: 
+overlay_color: #FFFFFF
 ---
 
 WordCamp Salt Lake City 2015 is great. Here I am minutes from presenting, so I thought I'd share my slidedeck and GitHub project I made specifically for my talk.
