@@ -16,4 +16,4 @@ I had the opportunity to speak at the New York Big Data Warehousing meetup. We h
 
 ## Watch the full presenation now.
 
-<center><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fcasertadata%2Fvideos%2F1770558789649087%2F&show_text=0&width=780" width="560" height="439" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></center>
+<center><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fcasertadata%2Fvideos%2F1770558789649087%2F&show_text=0&width=780" width="780" height="439" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></center>
