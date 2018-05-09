@@ -2,7 +2,7 @@
 layout: post
 title:  "Airflow's Strengths and Weaknessess, and Dynamic Tasks"
 date:   2018-05-09 08:00:00
-categories: Airflow, DevOps
+categories: [Airflow, DevOps]
 tags: [Spark, GCP, Airflow, Python, Cloud, ETL]
 imagefeature: abstract-art-blur-373543.jpg
 featured: true
