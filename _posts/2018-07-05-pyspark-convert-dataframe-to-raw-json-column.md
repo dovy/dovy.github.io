@@ -10,9 +10,15 @@ comments: true
 
 ---
 
-I recently was tasked with creating a full json representation of each row, as it's own individual column. This is how I did it.
+Not all schemas are created equal. Sometimes, no matter how much you massage the structure, you want to make sure and future-proof your work. That's what this is all about. Taking the original data from a dataframe, and making a JSON representation of it in a single column. That way you can be sure and maintain all of your data long term.
 
 <!--more-->
+
+Let's say you have a complex schema and you're planning to adjust it a bit. You'll rename here, sum there... But what if you mess up? Wouldn't it be nice to have an original copy stored in the data so for future iterations you can come back and save yourself from ETL misery?
+
+This little utility, takes an entire spark dataframe, converts it to a key-value pair rep of every column, and then converts that to a dict, which gets boiled down to a json string.
+
+Really this is plug and go and can work for any dataframe, where you want to make a copy of all the data on a row by row basis, and store that as a column.
 
 ```python
 # Create raw_json column
@@ -39,9 +45,7 @@ newDF = df.withColumn('raw_kvp', kvp_udf(df.columns)(*df.columns))\
 #newDF.select('raw_json').show(1, truncate=False)
 ```
 
-What does this do? It takes each column per row, and creates a KVP. From that KVP it converts it into a dictionary, then dumps a json representaiton of that dictionary, while dropping the key-value-pair column.
-
-Long story short, this should save you time if you're looking for the same type of thing.  :)
+Long story short, this will save you time if you're looking for the same type of thing, because I could not find a complete solution for this anywhere.  :)
 
 
 
