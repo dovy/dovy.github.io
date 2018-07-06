@@ -35,11 +35,15 @@ def kvp(cols, *args):
     return c
 
 kvp_udf = lambda cols: f.udf(lambda *args: kvp(cols, *args), ArrayType(StringType()))
-newDF = df.withColumn('raw_kvp', kvp_udf(df.columns)(*df.columns))\
-    .select(
-        "*",
-        f.udf(lambda x: json.dumps(dict(zip(x[::2],x[1::2]))), StringType())(f.col('raw_kvp'))\
-        .alias('raw_json')
+newDF = df.withColumn('raw_kvp', kvp_udf(df.columns)(*df.columns)).select(
+    "*",
+    f.udf(
+        lambda x: json.dumps(
+            dict(zip(x[::2],x[1::2]))
+        ), 
+        StringType())(
+            f.col('raw_kvp')
+        ).alias('raw_json')
     ).drop('raw_kvp')
 # newDF2.printSchema()
 #newDF.select('raw_json').show(1, truncate=False)
