@@ -50,9 +50,3 @@ newDF = df.withColumn('raw_kvp', kvp_udf(df.columns)(*df.columns)).select(
 ```
 
 Long story short, this will save you time if you're looking for the same type of thing, because I could not find a complete solution for this anywhere.  :)
-
-
-
-
-
-```
