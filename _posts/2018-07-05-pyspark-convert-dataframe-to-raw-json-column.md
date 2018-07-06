@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Convert a Spark (python/pyspark) values into a single raw_json column"
+title:  "Convert a Spark dataframe into a JSON string, row by row"
 date:   2018-05-09 08:00:00
 categories: Spark
 tags: [Spark, Python, ETL]
@@ -18,7 +18,7 @@ Let's say you have a complex schema and you're planning to adjust it a bit. You'
 
 This little utility, takes an entire spark dataframe, converts it to a key-value pair rep of every column, and then converts that to a dict, which gets boiled down to a json string.
 
-Really this is plug and go and can work for any dataframe, where you want to make a copy of all the data on a row by row basis, and store that as a column.
+This block of code is really plug and play, and will work for any spark dataframe (python). It takes your rows, and converts each row into a json representation stored as a column named raw_json. Give it a try!
 
 ```python
 # Create raw_json column
