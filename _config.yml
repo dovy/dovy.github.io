@@ -21,7 +21,7 @@ overlay_opacity:  .65
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:       		   
+url:       		    https://dovy.io
 
 # Owner/author information
 owner:
@@ -31,11 +31,11 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    I am a family man. I have 5 beautiful children and the love of my wife at my side (and a dog). My main focus in life is my family, and technology. I love public speaking and have done various presentations in my years. I have consulted for many companies across the world by way of stack design and development in, and out of, WordPress. <br /><br />I am a full stack designer, a developer, a programmer. I am a hybrid.
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        simplerain
+  twitter:        dovyp
   facebook:       dovyp
   github:         dovy
   stackexchange:  
-  stackoverflow:  http://stackoverflow.com/users/698305/dovy
+  stackoverflow:  https://stackoverflow.com/users/698305/dovy
   linkedin:       https://www.linkedin.com/in/dovyp
   gratipay:       dovy
   instagram:      
@@ -67,7 +67,7 @@ links:
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Denver
+timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown: redcarpet
@@ -95,8 +95,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://dovy.io/'
-  relativeLinks: 'http://dovy.io/links.jsonp'
+  siteurl: 'https://dovy.io/'
+  relativeLinks: 'https://dovy.io/links.jsonp'
   media: 'images'
   metadata:
     _posts:
@@ -183,12 +183,12 @@ prose:
         field:
           element: "text"
           label: "Credit link for the image"
-          placeholder: "http://somewebsite.com"
+          placeholder: "https://somewebsite.com"
       - name: "video"
         field:
           element: "text"
           label: "Insert Youtube Link"
-          placeholder: "http://youtube.com/somevideo"
+          placeholder: "https://youtube.com/somevideo"
       - name: "mathjax"
         field:
           element: "checkbox"
