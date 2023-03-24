@@ -2,7 +2,7 @@
 layout: page
 permalink: /dovy/index.html
 title: Dovy Paukstys
-tags: [Dovy, Dovydas, Paukstys, Dovy Paukstys]
+tags: [Dovy, Dovydas]
 imagefeature: 
 overlay_opacity: .10
 readtime: false
