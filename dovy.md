@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /dovy/index.html
-title: Dovy Paukstys
+title: Dōvy
 tags: [Dovy, Dovydas]
 imagefeature: 
 overlay_opacity: .10
@@ -9,7 +9,7 @@ readtime: false
 ---
 
 <figure>
-  <img src="{{ site.url }}/images/self_pic.jpg" alt="Dovy Paukstys">
+  <img src="{{ site.url }}/images/self_pic.jpg" alt="Dōvy">
 </figure>
 
 <div class="col-md-6">  
@@ -26,5 +26,3 @@ readtime: false
 </div>
 
 ## I help develop the internet.
-
-<center><a href="http://resume.linkedinlabs.com/kl4yr6ht0" class="btn btn-primary btn-lg" target="_blank">View my Resume</a></center>
