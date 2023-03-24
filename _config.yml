@@ -1,5 +1,5 @@
 title:            Dovy.io
-description:      "The Blog of Dovy Paukstys"
+description:      "The Blog of Dōvy"
 logo:             
 disqus_shortname: dovyio
 # Assign a default image for your site's header and footer
@@ -25,9 +25,8 @@ url:       		    https://dovy.io
 
 # Owner/author information
 owner:
-  name:           Dovy Paukstys
+  name:           Dōvy
   avatar:         dovy.jpg
-  email:          me@dovy.io
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    I am a family man. I have 5 beautiful children and the love of my wife at my side (and a dog). My main focus in life is my family, and technology. I love public speaking and have done various presentations in my years. I have consulted for many companies across the world by way of stack design and development in, and out of, WordPress. <br /><br />I am a full stack designer, a developer, a programmer. I am a hybrid.
   # Social networking links used in footer. Update and remove as you like.
@@ -36,14 +35,12 @@ owner:
   github:         dovy
   stackexchange:  
   stackoverflow:  https://stackoverflow.com/users/698305/dovy
-  linkedin:       https://www.linkedin.com/in/dovyp
   gratipay:       dovy
   instagram:      
   flickr:         
   tumblr:    
   resume:              
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/5/110628775544006058781
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-3386167-19
@@ -58,7 +55,7 @@ links:
     url: /
     external: false
     icon: home
-  - title: About Dovy
+  - title: About Dōvy
     url: /dovy    
   - title: Categories
     url: /categories
